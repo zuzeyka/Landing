@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	height: 100vh;
+	font-family: Arial;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+hr {
+	margin-top: 25px;
+}
+
+.main-button {
+	margin-top: 50px;
+}
+
+.header-text {
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.header-text hr {
+	margin-top: 0;
+}
+
+.header-text div:first-child {
+	margin-bottom: 10px;
+	font-size: 50px;
+}
+
+.header-text div:nth-child(3) {
+	margin-top: 15px;
+	display: flex;
+	width: 50%;
+	justify-content: center;
+}
+
+.menu-list {
+	width: 120px;
+	height: auto;
+	float: left;
+	text-align: center;
+	padding: 10px 25px;
+}
+
+.menu-bar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index: 10;
+	background-color: #352555;
+	height: 60px;
+}
+
+.menu-bar img {
+	margin-right: 120px;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	list-style: none;
+}
+
+.headerbackground {
+	background-size: cover;
+	background-image: url("./img//section1_background_purple.jpg");
+	height: 100%;
+	width: 100%;
+}
+
+.button {
+	background-color: none;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	border: 1px solid white;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: white;
+	color: #352555;
+}
