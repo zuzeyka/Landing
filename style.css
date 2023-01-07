@@ -98,3 +98,38 @@ hr {
 	background-color: white;
 	color: #352555;
 }
+
+.section1 {
+	height: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.text_frame {
+	width: 700px;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.section1 div,
+h2 {
+	margin-left: 25px;
+}
+
+.section3_back {
+	background-size: cover;
+	background-image: url("images/section1_background purple.jpg");
+	height: 70%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.section3_back div {
+	color: white;
+	font-size: 25px;
+}
