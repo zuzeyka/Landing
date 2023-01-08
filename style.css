@@ -293,3 +293,103 @@ hr {
 .all-images {
 	margin-top: 40px;
 }
+
+.section7 {
+	background-size: cover;
+	background-image: url("./img/header_background\ purple.png");
+	height: 70%;
+	width: 100%;
+}
+
+.quote-block {
+	padding-top: 75px;
+	display: flex;
+	justify-content: center;
+}
+
+.quote-textblock {
+	text-align: center;
+	width: 50%;
+	height: 40%;
+
+	color: white;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.text-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 30%;
+}
+
+.quote-gallery {
+	display: flex;
+	margin-top: 40px;
+	justify-content: center;
+}
+
+.gallery-align {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	background-position: center;
+	background-image: url("./img/quote_avatars/1.jpg");
+	background-size: cover;
+}
+
+.quote-gallery:nth-child(4) .gallery-align {
+	width: 120px;
+	height: 120px;
+}
+
+.quote-gallery:nth-child(5) .gallery-align {
+	background-image: url("./img/quote_avatars/2.jpg");
+}
+
+.quote-gallery:nth-child(3) .gallery-align {
+	background-image: url("./img/quote_avatars/3.jpg");
+}
+
+.quote-gallery:nth-child(6) .gallery-align {
+	background-image: url("./img/quote_avatars/4.jpg");
+}
+
+.quote-gallery:nth-child(2) .gallery-align {
+	background-image: url("./img/quote_avatars/5.jpg");
+}
+
+.quote-gallery:nth-child(7) .gallery-align {
+	background-image: url("./img/quote_avatars/narrow.png");
+}
+
+.quote-gallery:nth-child(1) .gallery-align {
+	background-image: url("./img/quote_avatars/narrow_left.png");
+}
+
+.lisa-text {
+	display: flex;
+	justify-content: center;
+	color: white;
+	margin-top: 40px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.text1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+}
+
+.quote-gallery-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 20px;
+}
