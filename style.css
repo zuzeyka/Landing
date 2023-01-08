@@ -214,3 +214,82 @@ hr {
 	margin-bottom: 5px;
 	font-size: 25px;
 }
+
+.section6 {
+	height: 70%;
+}
+
+.section6 h2 {
+	margin-top: 60px;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 0;
+}
+
+.image-container {
+	display: flex;
+	width: 310px;
+	height: 250px;
+	background-image: cover;
+	background-image: url("./img/gallery/1.jpg");
+	filter: grayscale(1);
+	transition: 1s ease;
+}
+
+.image-container:hover {
+	filter: grayscale(0);
+	transform: scale(1);
+}
+
+.image-container:nth-child(2) {
+	background-image: url("./img/gallery/2.jpg");
+}
+
+.image-container:nth-child(3) {
+	background-image: url("./img/gallery/3.jpg");
+}
+
+.image-container:nth-child(4) {
+	background-image: url("./img/gallery/4.jpg");
+}
+
+.image-container:nth-child(5) {
+	background-image: url("./img/gallery/5.jpg");
+}
+
+.image-container:nth-child(6) {
+	background-image: url("./img/gallery/6.jpg");
+}
+
+.images-row:nth-child(2) .image-container:nth-child(1) {
+	background-image: url("./img/gallery/7.jpg");
+}
+
+.images-row:nth-child(2) .image-container:nth-child(2) {
+	background-image: url("./img/gallery/8.jpg");
+}
+
+.images-row:nth-child(2) .image-container:nth-child(3) {
+	background-image: url("./img/gallery/9.jpg");
+}
+
+.images-row:nth-child(2) .image-container:nth-child(4) {
+	background-image: url("./img/gallery/10.jpg");
+}
+
+.images-row:nth-child(2) .image-container:nth-child(5) {
+	background-image: url("./img/gallery/11.jpg");
+}
+
+.images-row:nth-child(2) .image-container:nth-child(6) {
+	background-image: url("./img/gallery/12.jpg");
+}
+
+.images-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.all-images {
+	margin-top: 40px;
+}
