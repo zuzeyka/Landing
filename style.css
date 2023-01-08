@@ -80,7 +80,7 @@ hr {
 
 .headerbackground {
 	background-size: cover;
-	background-image: url("./img//section1_background_purple.jpg");
+	background-image: url("./img/header_background\ purple.png");
 	height: 100%;
 	width: 100%;
 }
@@ -107,7 +107,7 @@ hr {
 	flex-direction: row;
 }
 
-.text_frame {
+.text-frame {
 	width: 700px;
 	line-height: 1.5;
 	text-align: justify;
@@ -118,9 +118,9 @@ h2 {
 	margin-left: 25px;
 }
 
-.section3_back {
+.section3-back {
 	background-size: cover;
-	background-image: url("images/section1_background purple.jpg");
+	background-image: url("./img/section1_background\ purple.jpg");
 	height: 70%;
 	width: 100%;
 	display: flex;
@@ -129,7 +129,7 @@ h2 {
 	flex-direction: column;
 }
 
-.section3_back div {
+.section3-back div {
 	color: white;
 	font-size: 25px;
 }
