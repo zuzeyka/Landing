@@ -393,3 +393,78 @@ hr {
 	flex-direction: row;
 	gap: 20px;
 }
+
+.foot {
+	height: 60%;
+}
+
+.pictures-column {
+	display: flex;
+	flex-direction: column;
+	gap: 45px;
+	align-items: center;
+}
+
+.pictures-row {
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+	align-items: center;
+}
+
+.pictures-footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.footer-logo {
+	margin-top: 40px;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 0;
+	margin-bottom: 15px;
+}
+
+input {
+	width: 500px;
+	padding: 15px;
+	border: 1px solid rgb(221, 221, 221);
+	margin-bottom: 25px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-two-columns {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 500px;
+}
+
+.message {
+	height: 120px;
+	border: 1px solid rgb(221, 221, 221);
+}
+
+.button-click {
+	width: 100px;
+	text-align: center;
+	padding: 15px 20px;
+	background-color: none;
+	color: rgb(47, 0, 109);
+	font-family: Arial;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 2px solid rgb(47, 0, 109);
+	text-decoration: none;
+	margin-top: 25px;
+}
+
+.button-click:hover {
+	color: white;
+	background-color: #352555;
+}
