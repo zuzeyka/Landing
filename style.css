@@ -133,3 +133,47 @@ h2 {
 	color: white;
 	font-size: 25px;
 }
+
+.section4 {
+	height: 80%;
+}
+
+.section4 h2 {
+	margin-top: 60px;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 0;
+}
+
+.section4 div {
+	text-align: center;
+}
+
+.s4-miniblock {
+	margin-top: 40px;
+	line-height: 1.5;
+}
+
+.s4-three-miniblock {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin-top: 30px;
+	gap: 80px;
+}
+
+.s4-miniblock-subtitle {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+hr {
+	margin-top: 25px;
+}
+
+.section5 {
+	background-size: cover;
+	background-image: url("./img/header_background\ purple.png");
+	height: 70%;
+	width: 100%;
+}
