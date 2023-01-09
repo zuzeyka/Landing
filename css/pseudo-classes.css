@@ -1,0 +1,14 @@
+.button-click:hover {
+	color: white;
+	background-color: #352555;
+}
+
+.image-container:hover {
+	filter: grayscale(0);
+	transform: scale(1);
+}
+
+.button:hover {
+	background-color: white;
+	color: #352555;
+}

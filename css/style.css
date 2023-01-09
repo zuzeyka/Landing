@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	height: 100vh;
+	font-family: Arial;
+}
+
+* {
+	cursor: url(./img/cursor.png), auto;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+input {
+	width: 500px;
+	padding: 15px;
+	border: 1px solid rgb(221, 221, 221);
+	margin-bottom: 25px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+hr {
+	margin-top: 25px;
+}
+
+.header-text hr {
+	margin-top: 0;
+}
+
+.menu-bar img {
+	margin-right: 120px;
+}
