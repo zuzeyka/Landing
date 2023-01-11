@@ -59,7 +59,7 @@
 	text-decoration: none;
 }
 
-.text-frame {
+.frame {
 	width: auto;
 	line-height: 1.5;
 	text-align: justify;
@@ -178,17 +178,16 @@
 	justify-content: center;
 }
 
-.quote-textblock {
+.quote {
 	text-align: center;
 	width: 50%;
 	height: 40%;
-
 	color: white;
 	font-size: 20px;
 	line-height: 1.5;
 }
 
-.text-wrapper {
+.wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -211,7 +210,7 @@
 	background-size: cover;
 }
 
-.lisa-text {
+.lisa {
 	display: flex;
 	justify-content: center;
 	color: white;
@@ -220,7 +219,7 @@
 	margin-bottom: 10px;
 }
 
-.text1 {
+.under {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -290,4 +289,11 @@
 	border: 2px solid rgb(47, 0, 109);
 	text-decoration: none;
 	margin-top: 25px;
+}
+
+.personal-photo {
+	min-width: auto;
+	min-height: auto;
+	height: 100%;
+	width: 100%;
 }

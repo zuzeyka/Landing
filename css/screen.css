@@ -1,6 +1,83 @@
+@media (max-width: 1900px) {
+	h2 {
+		font-size: 25px;
+	}
+}
+
 @media (max-width: 1400px) {
 	.menu-list {
 		font-size: 12pt;
 		padding: 0;
+	}
+}
+
+@media (max-width: 950px) {
+	h2 {
+		font-size: 16pt;
+	}
+	.story-image {
+		width: 30%;
+		height: 50%;
+	}
+	.text {
+		font-size: 10pt;
+	}
+	.image {
+		width: 50%;
+		height: 50%;
+	}
+	.all-team-blocks {
+		flex-wrap: wrap;
+	}
+	.team-block {
+		height: 50%;
+		width: 20%;
+	}
+}
+
+@media (max-width: 650px) {
+	h2 {
+		font-size: 14pt;
+	}
+	.story-image {
+		width: 30%;
+		height: 50%;
+	}
+	.text {
+		font-size: 9pt;
+	}
+	.image {
+		width: 30%;
+		height: 30%;
+	}
+	.all-team-blocks {
+		flex-wrap: wrap;
+	}
+	.team-block {
+		height: 50%;
+		width: 20%;
+	}
+}
+
+@media (max-width: 500px) {
+	h2 {
+		font-size: 12pt;
+	}
+	.flex:nth-child(2) {
+		flex-wrap: wrap;
+	}
+	.story-image {
+		width: 70%;
+		height: 50%;
+	}
+	.image {
+		width: 30%;
+		height: 20%;
+	}
+	.text {
+		font-size: 8pt;
+	}
+	.section {
+		height: 100%;
 	}
 }

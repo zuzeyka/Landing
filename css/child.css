@@ -129,10 +129,8 @@
 	font-size: 50px;
 }
 
-.section:nth-child(2) div,
-h2 {
+.section:nth-child(2) div {
 	display: inline-block;
-	margin: 0 25px;
 }
 
 .section:nth-child(3) div {
@@ -142,7 +140,6 @@ h2 {
 
 .section:nth-child(4) h2 {
 	margin-top: 60px;
-	font-size: 25px;
 	text-align: center;
 	margin-left: 0;
 }
@@ -154,7 +151,6 @@ h2 {
 .section:nth-child(5) h2 {
 	color: white;
 	padding-top: 60px;
-	font-size: 25px;
 	text-align: center;
 	margin-left: 0;
 }
@@ -166,7 +162,6 @@ h2 {
 
 .section:nth-child(6) h2 {
 	margin-top: 60px;
-	font-size: 25px;
 	text-align: center;
 	margin-left: 0;
 }
