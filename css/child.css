@@ -1,20 +1,20 @@
-.image-container:nth-child(2) {
+.images-row:nth-child(1) .image-container:nth-child(2) {
 	background-image: url("../img/gallery/2.jpg");
 }
 
-.image-container:nth-child(3) {
+.images-row:nth-child(1) .image-container:nth-child(3) {
 	background-image: url("../img/gallery/3.jpg");
 }
 
-.image-container:nth-child(4) {
+.images-row:nth-child(1) .image-container:nth-child(4) {
 	background-image: url("../img/gallery/4.jpg");
 }
 
-.image-container:nth-child(5) {
+.images-row:nth-child(1) .image-container:nth-child(5) {
 	background-image: url("../img/gallery/5.jpg");
 }
 
-.image-container:nth-child(6) {
+.images-row:nth-child(1) .image-container:nth-child(6) {
 	background-image: url("../img/gallery/6.jpg");
 }
 
@@ -40,6 +40,22 @@
 
 .images-row:nth-child(2) .image-container:nth-child(6) {
 	background-image: url("../img/gallery/12.jpg");
+}
+
+.team-block .image-container:nth-child(1) {
+	background-image: url("../img/section5_team1.png");
+}
+
+.team-block .image-container:nth-child(2) {
+	background-image: url("../img/section5_team2.png");
+}
+
+.team-block .image-container:nth-child(3) {
+	background-image: url("../img/section5_team3.png");
+}
+
+.team-block .image-container:nth-child(4) {
+	background-image: url("../img/section5_team4.png");
 }
 
 .quote-gallery:nth-child(4) .gallery-align {
@@ -108,14 +124,15 @@
 	justify-content: center;
 }
 
-.header-text div:first-child {
+.header-text h1:first-child {
 	margin-bottom: 10px;
 	font-size: 50px;
 }
 
 .section:nth-child(2) div,
 h2 {
-	margin-left: 25px;
+	display: inline-block;
+	margin: 0 25px;
 }
 
 .section:nth-child(3) div {
