@@ -14,13 +14,14 @@ a {
 }
 
 input {
-	width: 500px;
+	width: 85%;
 	padding: 15px;
 	border: 1px solid rgb(221, 221, 221);
 	margin-bottom: 25px;
 }
 
 form {
+	width: 40%;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -36,4 +37,5 @@ hr {
 
 .menu-bar img {
 	margin-right: auto;
+	margin-left: auto;
 }

@@ -2,12 +2,62 @@
 	h2 {
 		font-size: 25px;
 	}
+	.text {
+		font-size: 14pt;
+	}
+	.all-team-blocks {
+		flex-wrap: wrap;
+	}
 }
 
 @media (max-width: 1400px) {
 	.menu-list {
 		font-size: 12pt;
 		padding: 0;
+	}
+	h2 {
+		font-size: 20pt;
+	}
+	.text {
+		font-size: 13pt;
+	}
+	.all-team-blocks {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 1150px) {
+	h2 {
+		font-size: 20pt;
+	}
+	.story-image {
+		width: 30%;
+		height: 50%;
+	}
+	.text {
+		font-size: 12pt;
+	}
+	.image {
+		width: 50%;
+		height: 50%;
+	}
+	.all-team-blocks {
+		flex-wrap: wrap;
+	}
+	.team-block {
+		height: 50%;
+		width: 20%;
+	}
+	.line {
+		width: 50%;
+	}
+	.quote-gallery:nth-child(4) .gallery-align {
+		width: 100px;
+		height: 100px;
+	}
+	.gallery-align {
+		width: 60px;
+		height: 60px;
 	}
 }
 
@@ -33,6 +83,9 @@
 		height: 50%;
 		width: 20%;
 	}
+	.foot {
+		height: 100%;
+	}
 }
 
 @media (max-width: 650px) {
@@ -47,7 +100,7 @@
 		font-size: 9pt;
 	}
 	.image {
-		width: 30%;
+		width: 50%;
 		height: 30%;
 	}
 	.all-team-blocks {
@@ -56,6 +109,17 @@
 	.team-block {
 		height: 50%;
 		width: 20%;
+	}
+	.foot {
+		height: 100%;
+	}
+	.quote-gallery:nth-child(4) .gallery-align {
+		width: 80px;
+		height: 80px;
+	}
+	.gallery-align {
+		width: 40px;
+		height: 40px;
 	}
 }
 
@@ -71,13 +135,30 @@
 		height: 50%;
 	}
 	.image {
-		width: 30%;
-		height: 20%;
+		width: 80%;
+		height: 30%;
 	}
 	.text {
-		font-size: 8pt;
+		font-size: 7pt;
 	}
 	.section {
 		height: 100%;
+	}
+	.foot {
+		height: 100%;
+	}
+	.quote-gallery:nth-child(4) .gallery-align {
+		width: 40px;
+		height: 40px;
+	}
+	.gallery-align {
+		width: 30px;
+		height: 30px;
+	}
+	.image-container {
+		height: 47.1vh;
+	}
+	.quote-gallery-row {
+		margin-top: 30%;
 	}
 }

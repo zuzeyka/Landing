@@ -74,7 +74,6 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
-	margin-top: 30px;
 	gap: 80px;
 }
 
@@ -246,15 +245,15 @@
 	align-items: center;
 }
 
+.footer-pictures {
+	margin: auto;
+}
+
 .pictures-row {
 	display: flex;
 	flex-direction: row;
 	gap: 60px;
 	align-items: center;
-}
-
-.footer-pictures {
-	margin-right: 10%;
 }
 
 .footer-logo {
@@ -267,18 +266,20 @@
 
 .footer-two-columns {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: center;
 	gap: 0px;
 }
 
 .message {
-	height: 120px;
+	height: 150px;
+	width: 90%;
 	border: 1px solid rgb(221, 221, 221);
 }
 
 .button-click {
-	width: 100px;
+	width: 83%;
 	text-align: center;
 	padding: 15px 20px;
 	background-color: none;
